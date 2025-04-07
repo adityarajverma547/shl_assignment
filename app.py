@@ -48,5 +48,5 @@ gr.Interface(
     outputs=gr.Markdown(label="Recommendations"),
     title="Assessment Recommender",
     description="Enter a job role or query and the number of recommendations you want.",
-).launch(server_name="0.0.0.0", server_port=8080)
+).launch(server_name="0.0.0.0", server_port=8081)
 
