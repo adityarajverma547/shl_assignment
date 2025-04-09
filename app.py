@@ -1,7 +1,7 @@
 import gradio as gr
 import requests
 
-API_URL = "https://apiend-08av.onrender.com/recommend/"
+API_URL = "https://apiend-08av.onrender.com/recommend"
 
 def fetch_recommendations(query, top_k):
     try:
